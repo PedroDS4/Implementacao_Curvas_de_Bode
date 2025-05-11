@@ -19,17 +19,16 @@ $$ (26 \times 10^{-8}) s^2 (s+205) $$
 
 Então a forma final:
 
-*(*A fonte não mostra a forma final da função de transferência após a normalização, apenas o polinômio normalizado do numerador*)*
-
 É possível ver no numerador uma **frequência de corte 1 rad/s**, de **ordem 2**. E uma frequência de corte de **205 rad/s**, de **ordem 1**.
 
 Já no denominador vemos uma frequência de corte de **segundo grau** de 
-$$ \sqrt{4 \times 10^9} = 63245.55 \text{ rad/s} $$ 
-(calculada a partir do código), e uma de 
-$$ \sqrt{0.4 \times 10^{12}} = 632455.5 \text{ rad/s} $$ 
-(calculada a partir do código).
 
-*Nota: A fonte original apenas indica as variáveis `wcd_1` e `wcd_2` sem mostrar seus valores calculados explicitamente no texto, mas o código mostra o cálculo usando `sqrt(4*10^9)` e `sqrt(0.4*10^12)`. O valor de `wcd_2` no código é `sqrt(0.4*10^12)`, diferente do valor de `sqrt(4*10^11)` mencionado no texto. Utilizei os valores calculados do código como base.*
+$$ \sqrt{4 \times 10^9} = 63245.55 \text{ rad/s} $$ 
+
+e uma de 
+
+$$ \sqrt{0.4 \times 10^{12}} = 632455.5 \text{ rad/s} $$ ]
+
 
 ---
 
