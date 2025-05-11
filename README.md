@@ -1,6 +1,3 @@
-Com certeza! Aqui está o documento convertido para markdown, com as equações formatadas conforme solicitado usando `$$ $$`, baseado nas informações dos excertos da prova de Teoria dos Circuitos:
-
-```markdown
 # Diagrama de Bode TC
 
 **Trabalho**
@@ -166,6 +163,4 @@ xgrid();
 ```scilab
 usando apenas
 bode(H, 0.001, 10^8, "rad");
-```
-```
 ```
